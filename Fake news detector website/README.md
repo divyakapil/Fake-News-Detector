@@ -1,24 +1,20 @@
 # Fake News Prediction with Chatbot Integration
-
 A scalable Fake News Detection system built using Flask and Machine Learning, integrated with a chatbot interface to simulate real-time user interactions. The project explores personalization and trust scoring mechanisms to improve prediction accuracy and user validation.
 
-#🚀 Features
-#Fake News Classifier trained on real-world datasets
-#Interactive Chatbot to engage users and accept news inputs
-#Production-style Flask App with modular ML pipeline
-#Personalization Layer using trust scoring to enhance user-based prediction reliability
-#Comprehensive preprocessing including NLP techniques like TF-IDF, stopword removal, and stemming
+Project Overview
 
-#📦 Tech Stack
-#Frontend: Chatbot UI (HTML/CSS + JavaScript)
-#Backend: Python, Flask
-#Machine Learning: scikit-learn, pandas, NumPy
-#NLP: NLTK, spaCy
-#Model: Logistic Regression / Naive Bayes (configurable)
+The Fake News Prediction system leverages natural language processing (NLP) and machine learning techniques to detect and classify news as real or fake. Users can input text via a web interface or interact with a chatbot for seamless communication. This project explores trust scoring, user personalization, and model confidence to provide a production-style solution that’s user-friendly and efficient.
 
-#🧠 ML Pipeline Overview
-#Data Cleaning – Remove punctuation, stopwords, and apply stemming
-#Feature Extraction – TF-IDF Vectorization
-#Model Training – Train/test split and evaluation with cross-validation
-#Trust Score Mechanism – Assign scores based on source/user reliability
-#Prediction – Model outputs probability with custom threshold
+Features
+- Flask-based web application for fast and lightweight deployment.
+- Chatbot integration for interactive and conversational user experience.
+- Machine learning model trained on labeled news datasets for binary classification (real/fake).
+- Personalization logic and trust scoring to enhance reliability and minimize false positives.
+- Real-time prediction and intuitive user feedback for decision-making support.
+
+Tech Stack
+- Frontend: HTML/CSS
+- Backend: Python, Flask
+- Machine Learning: scikit-learn, pandas, NumPy, NLTK
+- Chatbot: Python-based scripted chatbot
+- Deployment Tools: Flask development server
