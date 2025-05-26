@@ -18,3 +18,10 @@ Tech Stack
 - Machine Learning: scikit-learn, pandas, NumPy, NLTK
 - Chatbot: Python-based scripted chatbot
 - Deployment Tools: Flask development server
+
+## 🛠️ Built With
+
+![Python](https://img.shields.io/badge/Python-3.6+-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-%20Web%20Framework-black?logo=flask)
+![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)
